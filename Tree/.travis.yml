@@ -1,9 +1,8 @@
 language: java
-branches:
-  only:
-    - master
-rvm:
-  - 1.8
-  - java
 
-os: windows
+
+apt_packages:
+  - ant
+
+script:
+  ant Main
