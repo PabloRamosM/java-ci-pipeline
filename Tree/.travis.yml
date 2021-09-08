@@ -7,4 +7,3 @@ rvm:
   - java
 
 os: windows
-install: ant deps
