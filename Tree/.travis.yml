@@ -1,8 +1,6 @@
 language: java
-
-
 apt_packages:
   - ant
-
 script:
   ant Main
+os: windows
